@@ -152,6 +152,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/model/Case.obj: src/model/Case.cpp.obj
+.PHONY : src/model/Case.obj
+
+# target to build an object file
+src/model/Case.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj
+.PHONY : src/model/Case.cpp.obj
+
+src/model/Case.i: src/model/Case.cpp.i
+.PHONY : src/model/Case.i
+
+# target to preprocess a source file
+src/model/Case.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Case.cpp.i
+.PHONY : src/model/Case.cpp.i
+
+src/model/Case.s: src/model/Case.cpp.s
+.PHONY : src/model/Case.s
+
+# target to generate assembly for a file
+src/model/Case.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Case.cpp.s
+.PHONY : src/model/Case.cpp.s
+
+src/model/Plateau.obj: src/model/Plateau.cpp.obj
+.PHONY : src/model/Plateau.obj
+
+# target to build an object file
+src/model/Plateau.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj
+.PHONY : src/model/Plateau.cpp.obj
+
+src/model/Plateau.i: src/model/Plateau.cpp.i
+.PHONY : src/model/Plateau.i
+
+# target to preprocess a source file
+src/model/Plateau.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.i
+.PHONY : src/model/Plateau.cpp.i
+
+src/model/Plateau.s: src/model/Plateau.cpp.s
+.PHONY : src/model/Plateau.s
+
+# target to generate assembly for a file
+src/model/Plateau.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\YaltaChess.dir\build.make CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.s
+.PHONY : src/model/Plateau.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +212,12 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/model/Case.obj
+	@echo ... src/model/Case.i
+	@echo ... src/model/Case.s
+	@echo ... src/model/Plateau.obj
+	@echo ... src/model/Plateau.i
+	@echo ... src/model/Plateau.s
 .PHONY : help
 
 

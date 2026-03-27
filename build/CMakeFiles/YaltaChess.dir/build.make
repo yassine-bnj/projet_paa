@@ -86,14 +86,48 @@ CMakeFiles/YaltaChess.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YaltaChess.dir/src/main.cpp.s"
 	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\main.cpp -o CMakeFiles\YaltaChess.dir\src\main.cpp.s
 
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj: CMakeFiles/YaltaChess.dir/flags.make
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj: CMakeFiles/YaltaChess.dir/includes_CXX.rsp
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj: C:/Users/etudiant/Documents/projet_paa/YaltaChess/src/model/Case.cpp
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj: CMakeFiles/YaltaChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\etudiant\Documents\projet_paa\YaltaChess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj -MF CMakeFiles\YaltaChess.dir\src\model\Case.cpp.obj.d -o CMakeFiles\YaltaChess.dir\src\model\Case.cpp.obj -c C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Case.cpp
+
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YaltaChess.dir/src/model/Case.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Case.cpp > CMakeFiles\YaltaChess.dir\src\model\Case.cpp.i
+
+CMakeFiles/YaltaChess.dir/src/model/Case.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YaltaChess.dir/src/model/Case.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Case.cpp -o CMakeFiles\YaltaChess.dir\src\model\Case.cpp.s
+
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj: CMakeFiles/YaltaChess.dir/flags.make
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj: CMakeFiles/YaltaChess.dir/includes_CXX.rsp
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj: C:/Users/etudiant/Documents/projet_paa/YaltaChess/src/model/Plateau.cpp
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj: CMakeFiles/YaltaChess.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\etudiant\Documents\projet_paa\YaltaChess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj -MF CMakeFiles\YaltaChess.dir\src\model\Plateau.cpp.obj.d -o CMakeFiles\YaltaChess.dir\src\model\Plateau.cpp.obj -c C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Plateau.cpp
+
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Plateau.cpp > CMakeFiles\YaltaChess.dir\src\model\Plateau.cpp.i
+
+CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\etudiant\Documents\projet_paa\YaltaChess\src\model\Plateau.cpp -o CMakeFiles\YaltaChess.dir\src\model\Plateau.cpp.s
+
 # Object files for target YaltaChess
 YaltaChess_OBJECTS = \
-"CMakeFiles/YaltaChess.dir/src/main.cpp.obj"
+"CMakeFiles/YaltaChess.dir/src/main.cpp.obj" \
+"CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj" \
+"CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj"
 
 # External object files for target YaltaChess
 YaltaChess_EXTERNAL_OBJECTS =
 
 YaltaChess.exe: CMakeFiles/YaltaChess.dir/src/main.cpp.obj
+YaltaChess.exe: CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj
+YaltaChess.exe: CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj
 YaltaChess.exe: CMakeFiles/YaltaChess.dir/build.make
 YaltaChess.exe: C:/SFML/lib/libsfml-graphics-d.a
 YaltaChess.exe: C:/SFML/lib/libsfml-window-d.a
@@ -101,7 +135,7 @@ YaltaChess.exe: C:/SFML/lib/libsfml-system-d.a
 YaltaChess.exe: CMakeFiles/YaltaChess.dir/linkLibs.rsp
 YaltaChess.exe: CMakeFiles/YaltaChess.dir/objects1.rsp
 YaltaChess.exe: CMakeFiles/YaltaChess.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\etudiant\Documents\projet_paa\YaltaChess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable YaltaChess.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\etudiant\Documents\projet_paa\YaltaChess\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable YaltaChess.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\YaltaChess.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

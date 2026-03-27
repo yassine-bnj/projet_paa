@@ -10,6 +10,10 @@ set(SFML_DIR "C:/SFML/lib/cmake/SFML")
 
 find_package(SFML 3 COMPONENTS Graphics Window System REQUIRED)
 
-add_executable(YaltaChess src/main.cpp)
+add_executable(YaltaChess 
+    src/main.cpp
+    src/model/Case.cpp
+    src/model/Plateau.cpp
+)
 target_include_directories(YaltaChess PRIVATE include)
 target_link_libraries(YaltaChess SFML::Graphics SFML::Window SFML::System)

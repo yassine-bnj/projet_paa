@@ -27,6 +27,9 @@ events:
     names:
       - "mingw32-make.exe"
     candidate_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -56,6 +59,12 @@ events:
       - "/MinGW/bin/"
       - "/REGISTRY-NOTFOUND/MinGW/bin/"
     searched_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mingw32-make.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mingw32-make.exe.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mingw32-make.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/mingw32-make.exe.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/mingw32-make.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/mingw32-make.exe"
       - "C:/Windows/System32/mingw32-make.exe.com"
@@ -106,6 +115,9 @@ events:
     found: "C:/mingw64/bin/mingw32-make.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -126,6 +138,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -157,6 +171,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -177,6 +194,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -224,6 +243,9 @@ events:
       - "ar"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -252,6 +274,9 @@ events:
     found: "C:/mingw64/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -272,6 +297,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -297,6 +324,9 @@ events:
       - "ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -325,6 +355,9 @@ events:
     found: "C:/mingw64/bin/ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -345,6 +378,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -370,6 +405,9 @@ events:
       - "strip"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -398,6 +436,9 @@ events:
     found: "C:/mingw64/bin/strip.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -418,6 +459,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -443,6 +486,9 @@ events:
       - "ld"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -471,6 +517,9 @@ events:
     found: "C:/mingw64/bin/ld.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -491,6 +540,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -516,6 +567,9 @@ events:
       - "nm"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -544,6 +598,9 @@ events:
     found: "C:/mingw64/bin/nm.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -564,6 +621,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -589,6 +648,9 @@ events:
       - "objdump"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -617,6 +679,9 @@ events:
     found: "C:/mingw64/bin/objdump.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -637,6 +702,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -662,6 +729,9 @@ events:
       - "objcopy"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -690,6 +760,9 @@ events:
     found: "C:/mingw64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -710,6 +783,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -735,6 +810,9 @@ events:
       - "readelf"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -763,6 +841,9 @@ events:
     found: "C:/mingw64/bin/readelf.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -783,6 +864,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -808,6 +891,9 @@ events:
       - "dlltool"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -836,6 +922,9 @@ events:
     found: "C:/mingw64/bin/dlltool.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -856,6 +945,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -881,6 +972,9 @@ events:
       - "addr2line"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -909,6 +1003,9 @@ events:
     found: "C:/mingw64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -929,6 +1026,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -954,6 +1053,9 @@ events:
       - "tapi"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -981,6 +1083,15 @@ events:
       - "C:/mingw64/bin/tapi.com"
       - "C:/mingw64/bin/tapi.exe"
       - "C:/mingw64/bin/tapi"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/tapi.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/tapi.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/tapi"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
@@ -1053,6 +1164,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1073,6 +1187,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -1101,6 +1217,9 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1128,6 +1247,15 @@ events:
       - "C:/mingw64/bin/gcc-ar-14.2.com"
       - "C:/mingw64/bin/gcc-ar-14.2.exe"
       - "C:/mingw64/bin/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2"
@@ -1200,6 +1328,15 @@ events:
       - "C:/mingw64/bin/gcc-ar-14.com"
       - "C:/mingw64/bin/gcc-ar-14.exe"
       - "C:/mingw64/bin/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14"
@@ -1272,6 +1409,15 @@ events:
       - "C:/mingw64/bin/gcc-ar14.com"
       - "C:/mingw64/bin/gcc-ar14.exe"
       - "C:/mingw64/bin/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14"
@@ -1345,6 +1491,9 @@ events:
     found: "C:/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1365,6 +1514,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -1393,6 +1544,9 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1420,6 +1574,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-14.2.com"
       - "C:/mingw64/bin/gcc-ranlib-14.2.exe"
       - "C:/mingw64/bin/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2"
@@ -1492,6 +1655,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-14.com"
       - "C:/mingw64/bin/gcc-ranlib-14.exe"
       - "C:/mingw64/bin/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14"
@@ -1564,6 +1736,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib14.com"
       - "C:/mingw64/bin/gcc-ranlib14.exe"
       - "C:/mingw64/bin/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14"
@@ -1637,6 +1818,9 @@ events:
     found: "C:/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1657,6 +1841,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -1688,6 +1874,9 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1708,6 +1897,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -1758,6 +1949,9 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1785,6 +1979,15 @@ events:
       - "C:/mingw64/bin/gcc-ar-14.2.com"
       - "C:/mingw64/bin/gcc-ar-14.2.exe"
       - "C:/mingw64/bin/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.2"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.2"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.2"
@@ -1857,6 +2060,15 @@ events:
       - "C:/mingw64/bin/gcc-ar-14.com"
       - "C:/mingw64/bin/gcc-ar-14.exe"
       - "C:/mingw64/bin/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar-14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar-14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-14"
@@ -1929,6 +2141,15 @@ events:
       - "C:/mingw64/bin/gcc-ar14.com"
       - "C:/mingw64/bin/gcc-ar14.exe"
       - "C:/mingw64/bin/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ar14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ar14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar14"
@@ -2002,6 +2223,9 @@ events:
     found: "C:/mingw64/bin/gcc-ar.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2022,6 +2246,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -2050,6 +2276,9 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "C:/mingw64/bin/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2077,6 +2306,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-14.2.com"
       - "C:/mingw64/bin/gcc-ranlib-14.2.exe"
       - "C:/mingw64/bin/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.2"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.2"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.2"
@@ -2149,6 +2387,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib-14.com"
       - "C:/mingw64/bin/gcc-ranlib-14.exe"
       - "C:/mingw64/bin/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib-14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib-14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-14"
@@ -2221,6 +2468,15 @@ events:
       - "C:/mingw64/bin/gcc-ranlib14.com"
       - "C:/mingw64/bin/gcc-ranlib14.exe"
       - "C:/mingw64/bin/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/gcc-ranlib14"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/gcc-ranlib14"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib14"
@@ -2294,6 +2550,9 @@ events:
     found: "C:/mingw64/bin/gcc-ranlib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2314,6 +2573,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -2341,6 +2602,9 @@ events:
       - "windres"
       - "windres"
     candidate_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2378,6 +2642,15 @@ events:
       - "C:/Program Files (x86)/YaltaChess/sbin/"
       - "C:/Program Files (x86)/YaltaChess/"
     searched_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/windres"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.com"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres.exe"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/windres"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/windres.com"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/windres.exe"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/windres"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/windres.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/windres"
@@ -2451,6 +2724,9 @@ events:
     found: "C:/mingw64/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2471,6 +2747,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"
@@ -2490,8 +2768,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du"
-      binary: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du"
+      source: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx"
+      binary: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2501,13 +2779,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du'
+        Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_58834/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_58834.dir\\build.make CMakeFiles/cmTC_58834.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du'
-        Building C object CMakeFiles/cmTC_58834.dir/CMakeCCompilerABI.c.obj
-        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_98668/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_98668.dir\\build.make CMakeFiles/cmTC_98668.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx'
+        Building C object CMakeFiles/cmTC_98668.dir/CMakeCCompilerABI.c.obj
+        C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2516,8 +2794,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_58834.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccUuxPr1.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_98668.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccf4W8Gh.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2536,14 +2814,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 083cdfdb36f80abb23036714270fd518
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccUuxPr1.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccf4W8Gh.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_58834.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_58834.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_98668.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_98668.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -2555,16 +2833,16 @@ events:
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58834.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58834.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cchtf5JW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58834.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58834.dir/objects.a --no-whole-archive --out-implib libcmTC_58834.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98668.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98668.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccKbGM2C.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_98668.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_98668.dir/objects.a --no-whole-archive --out-implib libcmTC_98668.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cchtf5JW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58834.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58834.dir/objects.a --no-whole-archive --out-implib libcmTC_58834.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccKbGM2C.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_98668.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_98668.dir/objects.a --no-whole-archive --out-implib libcmTC_98668.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58834.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58834.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_58834.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_58834.dir/objects.a @CMakeFiles\\cmTC_58834.dir\\objects1.rsp
-        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_58834.dir/objects.a -Wl,--no-whole-archive -o cmTC_58834.exe -Wl,--out-implib,libcmTC_58834.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98668.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98668.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_98668.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_98668.dir/objects.a @CMakeFiles\\cmTC_98668.dir\\objects1.rsp
+        C:\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_98668.dir/objects.a -Wl,--no-whole-archive -o cmTC_98668.exe -Wl,--out-implib,libcmTC_98668.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx'
         
       exitCode: 0
   -
@@ -2599,13 +2877,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du']
+        ignore line: [Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_58834/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_58834.dir\\build.make CMakeFiles/cmTC_58834.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-44y6du']
-        ignore line: [Building C object CMakeFiles/cmTC_58834.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_98668/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_98668.dir\\build.make CMakeFiles/cmTC_98668.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ympplx']
+        ignore line: [Building C object CMakeFiles/cmTC_98668.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\mingw64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2614,8 +2892,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_58834.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccUuxPr1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_98668.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccf4W8Gh.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2634,8 +2912,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 083cdfdb36f80abb23036714270fd518]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccUuxPr1.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccf4W8Gh.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2646,9 +2924,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58834.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_58834.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_58834.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_98668.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_98668.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_98668.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -2667,13 +2945,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58834.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58834.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cchtf5JW.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58834.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58834.dir/objects.a --no-whole-archive --out-implib libcmTC_58834.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_98668.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_98668.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccKbGM2C.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_98668.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_98668.dir/objects.a --no-whole-archive --out-implib libcmTC_98668.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cchtf5JW.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccKbGM2C.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -2695,7 +2973,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_58834.exe] ==> ignore
+          arg [cmTC_98668.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -2706,10 +2984,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_58834.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_98668.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_58834.dll.a] ==> ignore
+          arg [libcmTC_98668.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2791,8 +3069,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll"
-      binary: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll"
+      source: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut"
+      binary: "C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2803,13 +3081,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll'
+        Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_eef03/fast
-        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_eef03.dir\\build.make CMakeFiles/cmTC_eef03.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll'
-        Building CXX object CMakeFiles/cmTC_eef03.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bb04e/fast
+        C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bb04e.dir\\build.make CMakeFiles/cmTC_bb04e.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut'
+        Building CXX object CMakeFiles/cmTC_bb04e.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -2818,8 +3096,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_eef03.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccB3iYXG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_bb04e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc29Z1W3.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2844,14 +3122,14 @@ events:
          C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\'
-         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccB3iYXG.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\'
+         C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc29Z1W3.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_eef03.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_eef03.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_bb04e.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bb04e.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\mingw64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -2863,16 +3141,16 @@ events:
         gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r2) 
         COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../libexec/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/mingw64/bin/../lib/gcc/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eef03.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eef03.'
-         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc60FKYR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_eef03.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_eef03.dir/objects.a --no-whole-archive --out-implib libcmTC_eef03.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb04e.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb04e.'
+         C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccV3Ysp5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb04e.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bb04e.dir/objects.a --no-whole-archive --out-implib libcmTC_bb04e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc60FKYR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_eef03.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_eef03.dir/objects.a --no-whole-archive --out-implib libcmTC_eef03.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccV3Ysp5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb04e.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bb04e.dir/objects.a --no-whole-archive --out-implib libcmTC_bb04e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r2) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eef03.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eef03.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_eef03.dir/objects.a
-        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_eef03.dir/objects.a @CMakeFiles\\cmTC_eef03.dir\\objects1.rsp
-        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_eef03.dir/objects.a -Wl,--no-whole-archive -o cmTC_eef03.exe -Wl,--out-implib,libcmTC_eef03.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb04e.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb04e.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_bb04e.dir/objects.a
+        C:\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_bb04e.dir/objects.a @CMakeFiles\\cmTC_bb04e.dir\\objects1.rsp
+        C:\\mingw64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_bb04e.dir/objects.a -Wl,--no-whole-archive -o cmTC_bb04e.exe -Wl,--out-implib,libcmTC_bb04e.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut'
         
       exitCode: 0
   -
@@ -2913,13 +3191,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll']
+        ignore line: [Change Dir: 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_eef03/fast]
-        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_eef03.dir\\build.make CMakeFiles/cmTC_eef03.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-vg6jll']
-        ignore line: [Building CXX object CMakeFiles/cmTC_eef03.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/mingw64/bin/mingw32-make.exe -f Makefile cmTC_bb04e/fast]
+        ignore line: [C:/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_bb04e.dir\\build.make CMakeFiles/cmTC_bb04e.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/etudiant/Documents/projet_paa/YaltaChess/build/CMakeFiles/CMakeScratch/TryCompile-ncvzut']
+        ignore line: [Building CXX object CMakeFiles/cmTC_bb04e.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\mingw64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -2928,8 +3206,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\']
-        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_eef03.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccB3iYXG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\']
+        ignore line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_bb04e.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc29Z1W3.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r2) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2954,8 +3232,8 @@ events:
         ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0a151f404c3e06bb380959acc81ec24d]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\']
-        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccB3iYXG.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\']
+        ignore line: [ C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc29Z1W3.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r2) 2.43.1]
         ignore line: [COMPILER_PATH=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/mingw64/bin/../libexec/gcc/]
@@ -2966,9 +3244,9 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_eef03.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_eef03.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_eef03.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_bb04e.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_bb04e.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_bb04e.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\mingw64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -2987,13 +3265,13 @@ events:
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_eef03.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_eef03.']
-        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc60FKYR.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_eef03.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_eef03.dir/objects.a --no-whole-archive --out-implib libcmTC_eef03.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bb04e.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bb04e.']
+        link line: [ C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccV3Ysp5.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_bb04e.exe C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/mingw64/bin/../lib/gcc -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_bb04e.dir/objects.a --no-whole-archive --out-implib libcmTC_bb04e.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\cc60FKYR.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\etudiant\\AppData\\Local\\Temp\\ccV3Ysp5.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -3015,7 +3293,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_eef03.exe] ==> ignore
+          arg [cmTC_bb04e.exe] ==> ignore
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -3026,10 +3304,10 @@ events:
           arg [-LC:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_eef03.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_bb04e.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_eef03.dll.a] ==> ignore
+          arg [libcmTC_bb04e.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -3120,6 +3398,15 @@ events:
     names:
       - "SFML.tag"
     candidate_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/SFML/doc/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/share/doc/SFML/"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
@@ -3244,6 +3531,15 @@ events:
       - "/opt/share/doc/SFML/"
       - "/opt/"
     searched_directories:
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML/doc/SFML.tag"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/share/doc/SFML/SFML.tag"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/SFML.tag"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML/doc/SFML.tag"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/share/doc/SFML/SFML.tag"
+      - "C:/Users/etudiant/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/SFML.tag"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/SFML/doc/SFML.tag"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/share/doc/SFML/SFML.tag"
+      - "C:/Users/etudiant/AppData/Local/Programs/Microsoft VS Code/SFML.tag"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML/doc/SFML.tag"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/share/doc/SFML/SFML.tag"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/SFML.tag"
@@ -3370,6 +3666,9 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\etudiant\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3390,6 +3689,8 @@ events:
         - "C:\\Users\\etudiant\\AppData\\Local\\Python\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Windsurf\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Ollama"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64"
+        - "C:\\Users\\etudiant\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\etudiant\\AppData\\Local\\Programs\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\"
         - "C:\\Users\\etudiant\\AppData\\Roaming\\npm"

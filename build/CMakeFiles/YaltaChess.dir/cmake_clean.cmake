@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/YaltaChess.dir/src/main.cpp.obj"
   "CMakeFiles/YaltaChess.dir/src/main.cpp.obj.d"
+  "CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj"
+  "CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj.d"
+  "CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj"
+  "CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj.d"
   "YaltaChess.exe"
   "YaltaChess.exe.manifest"
   "YaltaChess.pdb"

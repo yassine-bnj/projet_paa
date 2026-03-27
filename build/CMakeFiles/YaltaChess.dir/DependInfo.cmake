@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/etudiant/Documents/projet_paa/YaltaChess/src/main.cpp" "CMakeFiles/YaltaChess.dir/src/main.cpp.obj" "gcc" "CMakeFiles/YaltaChess.dir/src/main.cpp.obj.d"
+  "C:/Users/etudiant/Documents/projet_paa/YaltaChess/src/model/Case.cpp" "CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj" "gcc" "CMakeFiles/YaltaChess.dir/src/model/Case.cpp.obj.d"
+  "C:/Users/etudiant/Documents/projet_paa/YaltaChess/src/model/Plateau.cpp" "CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj" "gcc" "CMakeFiles/YaltaChess.dir/src/model/Plateau.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
