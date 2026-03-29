@@ -10,6 +10,7 @@
 
 #include "../utils/types.hpp"
 #include "model/Case.hpp"
+#include "model/Piece.hpp"
 #include <array>
 #include <vector>
 #include <memory>
@@ -17,8 +18,6 @@
 namespace Yalta {
 
     class Joueur;
-    class Piece;
-
     class Plateau {
     private:
         // Tableau de pointeurs vers les 96 cases
@@ -26,6 +25,7 @@ namespace Yalta {
         
         // Gestion des joueurs 
         std::vector<Joueur*> m_joueurs;
+        std::vector<std::unique_ptr<Piece>> m_pieces;
         
         // Tour de jeu actuel
         Couleur m_tourCourant;
@@ -50,6 +50,7 @@ namespace Yalta {
          * @return true si le roi est menacé
          */
         bool verifierEchec(const Piece* roi) const;
+        bool sontVoisines(int a, int b) const;
 
     public:
         /**
@@ -77,6 +78,7 @@ namespace Yalta {
          * @return Vecteur de coups valides
          */
         std::vector<CoupValide> getCoupsPossibles(Couleur joueur) const;
+        std::vector<int> getDestinationsLegales(int fromId) const;
 
         //  Actions sur le jeu 
 
