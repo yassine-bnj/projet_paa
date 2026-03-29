@@ -11,7 +11,7 @@
 #include "../utils/types.hpp"
 #include <string>
 #include <vector>
-
+#include "model/IMouvement.hpp"
 namespace Yalta {
 
     class Case;  
@@ -24,16 +24,16 @@ namespace Yalta {
         Case* m_position;
         IMouvement* m_strategieMouvement;  
         bool m_aDejaJoue;
+        TypePiece m_type;
 
     public:
-        Piece(Couleur couleur, Case* position, IMouvement* strategie);
+        Piece(Couleur couleur, Case* position, IMouvement* strategie, TypePiece type = TypePiece::PION);
         virtual ~Piece() = default;
 
-       
-        virtual std::string getNom() const = 0;
-        virtual int getValeur() const = 0;
+        std::string getNom() const;
+        int getValeur() const;
+        char getSymbole() const;
 
-       
         std::vector<Case*> getCoupsPossibles(const Plateau& plateau) const;
         void deplacer(Case* nouvelleCase);
         
@@ -41,6 +41,7 @@ namespace Yalta {
         Couleur getCouleur() const { return m_couleur; }
         Case* getPosition() const { return m_position; }
         bool aDejaJoue() const { return m_aDejaJoue; }
+        TypePiece getType() const { return m_type; }
     };
 
 } 

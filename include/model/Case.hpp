@@ -27,6 +27,7 @@ namespace Yalta {
         int getId() const { return m_id; }
         CoordonneesEcran getPositionEcran() const { return m_positionEcran; }
         Couleur getProprietaire() const { return m_proprietaire; }
+        Couleur getZone() const { return m_proprietaire; }
         bool appartientA(Couleur couleur) const;
     };
 
