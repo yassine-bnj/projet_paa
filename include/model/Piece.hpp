@@ -25,6 +25,8 @@ namespace Yalta {
         IMouvement* m_strategieMouvement;  
         bool m_aDejaJoue;
         TypePiece m_type;
+        int m_pawnDirX;
+        int m_pawnDirY;
 
     public:
         Piece(Couleur couleur, Case* position, IMouvement* strategie, TypePiece type = TypePiece::PION);
@@ -42,6 +44,9 @@ namespace Yalta {
         Case* getPosition() const { return m_position; }
         bool aDejaJoue() const { return m_aDejaJoue; }
         TypePiece getType() const { return m_type; }
+        void setPawnDirection(int dx, int dy) { m_pawnDirX = dx; m_pawnDirY = dy; }
+        int getPawnDirX() const { return m_pawnDirX; }
+        int getPawnDirY() const { return m_pawnDirY; }
     };
 
 } 

@@ -2,6 +2,7 @@
 #include <algorithm>
 #include <array>
 #include <cassert>
+#include <map>
 #include <vector>
 
 namespace Yalta {
@@ -85,6 +86,85 @@ namespace Yalta {
             return g_xyToId[y][x];
         }
 
+        bool isInsideBoard(int x, int y) {
+            return idFromXY(x, y) >= 0;
+        }
+
+        // Table des transitions spiralées de pions - une par couleur
+        // Élimine les collisions en séparant les tables par couleur
+        int getPawnTransition(int fromId, Couleur couleur) {
+            if (couleur == Couleur::BLANC) {
+                static const std::map<int, int> transitionsBlanc = {
+                    // BLANC (avance vers le centre) - SEXTANTS 0 & 5
+                    {31, 91}, {91, 83}, {83, 75},
+                    {23, 90}, {90, 82}, {82, 74},
+                    {15, 89}, {89, 81}, {81, 73},
+                    {7, 88}, {88, 80}, {80, 72},
+                    {27, 59}, {59, 58}, {58, 57},
+                    {26, 51}, {51, 50}, {50, 49},
+                    {25, 43}, {43, 42}, {42, 41},
+                    {24, 35}, {35, 34}, {34, 33}
+                };
+                auto it = transitionsBlanc.find(fromId);
+                if (it != transitionsBlanc.end()) return it->second;
+            }
+            else if (couleur == Couleur::NOIR) {
+                static const std::map<int, int> transitionsNoir = {
+                    // NOIR - SEXTANTS 1 & 2 (spirales vers centre et retours)
+                    {59, 27}, {27, 19},
+                    {51, 26}, {26, 18},
+                    {43, 25}, {25, 17},
+                    {35, 24}, {24, 16},
+                    {60, 71}, {71, 70},
+                    {61, 79}, {79, 78},
+                    {62, 87}, {87, 86},
+                    {63, 95}, {95, 94}
+                };
+                auto it = transitionsNoir.find(fromId);
+                if (it != transitionsNoir.end()) return it->second;
+            }
+            else if (couleur == Couleur::GRIS) {
+                static const std::map<int, int> transitionsGris = {
+                    // GRIS - SEXTANTS 3 & 4 (spirales vers centre et retours)
+                    {71, 60}, {60, 52},
+                    {79, 61}, {61, 53},
+                    {87, 62}, {62, 54},
+                    {95, 63}, {63, 55},
+                    {91, 31}, {31, 30},
+                    {90, 23}, {23, 22},
+                    {89, 15}, {15, 14},
+                    {88, 7}, {7, 6}
+                };
+                auto it = transitionsGris.find(fromId);
+                if (it != transitionsGris.end()) return it->second;
+            }
+            return -1;
+        }
+
+        // Cherche le voisin valide le plus aligné avec la direction (fx, fy)
+        // Utilisé uniquement comme fallback quand idFromXY échoue
+        int findBestNeighbor(int x, int y, int fx, int fy) {
+            int bestId = -1;
+            float bestScore = -2.0f;
+            
+            for (int dx = -1; dx <= 1; ++dx) {
+                for (int dy = -1; dy <= 1; ++dy) {
+                    int nx = x + dx;
+                    int ny = y + dy;
+                    int id = idFromXY(nx, ny);
+                    if (id < 0) continue;
+                    
+                    // Score: alignement avec direction (fx, fy)
+                    float score = static_cast<float>(dx * fx + dy * fy);
+                    if (score > bestScore) {
+                        bestScore = score;
+                        bestId = id;
+                    }
+                }
+            }
+            return bestId;
+        }
+
         LocalCell decodeId(int id) {
             return g_idToLocal[id];
         }
@@ -99,6 +179,66 @@ namespace Yalta {
             const float dx = static_cast<float>(x) - 5.5f;
             const float dy = static_cast<float>(y) - 5.5f;
             return {cx + dx * colStep + dy * shear, cy + dy * rowStep};
+        }
+
+        bool containsId(const std::vector<int>& ids, int id) {
+            return std::find(ids.begin(), ids.end(), id) != ids.end();
+        }
+
+        void addIfValid(
+            std::vector<int>& out,
+            int id,
+            const Piece* piece,
+            const std::array<Case*, 96>& cases,
+            bool captureOnly = false,
+            bool quietOnly = false)
+        {
+            if (id < 0) return;
+            Case* c = cases[id];
+            if (!c) return;
+
+            Piece* target = c->getPiece();
+            if (target) {
+                if (quietOnly) return;
+                if (target->getCouleur() == piece->getCouleur()) return;
+                if (!containsId(out, id)) out.push_back(id);
+                return;
+            }
+
+            if (captureOnly) return;
+            if (!containsId(out, id)) out.push_back(id);
+        }
+
+        void addSliding(
+            std::vector<int>& out,
+            const Piece* piece,
+            const std::array<Case*, 96>& cases,
+            int startX,
+            int startY,
+            const std::vector<std::pair<int, int>>& directions)
+        {
+            for (const auto& d : directions) {
+                int x = startX + d.first;
+                int y = startY + d.second;
+
+                while (isInsideBoard(x, y)) {
+                    const int id = idFromXY(x, y);
+                    if (id < 0) break;
+
+                    Piece* target = cases[id]->getPiece();
+                    if (!target) {
+                        out.push_back(id);
+                    } else {
+                        if (target->getCouleur() != piece->getCouleur()) {
+                            out.push_back(id);
+                        }
+                        break;
+                    }
+
+                    x += d.first;
+                    y += d.second;
+                }
+            }
         }
     }
 
@@ -153,6 +293,16 @@ namespace Yalta {
             if (id < 0) return;
             Case* c = m_cases[id];
             m_pieces.push_back(std::make_unique<Piece>(couleur, c, nullptr, type));
+            if (type == TypePiece::PION) {
+                const LocalCell start = decodeId(id);
+                Piece* p = m_pieces.back().get();
+                // Direction fixée selon le SEXTANT DE DÉPART, ne change jamais.
+                if (start.sextant == 0 || start.sextant == 2 || start.sextant == 4) {
+                    p->setPawnDirection(0, 1);
+                } else {
+                    p->setPawnDirection(1, 0);
+                }
+            }
             c->setPiece(m_pieces.back().get());
         };
 
@@ -250,12 +400,105 @@ namespace Yalta {
         Piece* piece = from->getPiece();
         if (!piece || piece->getCouleur() != m_tourCourant) return destinations;
 
-        for (Case* voisin : from->getVoisins()) {
-            if (!voisin) continue;
+        const LocalCell pos = decodeId(fromId);
+        const int x = pos.x;
+        const int y = pos.y;
 
-            Piece* cible = voisin->getPiece();
-            if (cible && cible->getCouleur() == piece->getCouleur()) continue;
-            destinations.push_back(voisin->getId());
+        static const std::vector<std::pair<int, int>> kOrthoDirs = {
+            {1, 0}, {-1, 0}, {0, 1}, {0, -1}
+        };
+
+        static const std::vector<std::pair<int, int>> kDiagDirs = {
+            {1, 1}, {-1, -1}, {1, -1}, {-1, 1}
+        };
+
+        static const std::vector<std::pair<int, int>> kKnightOffsets = {
+            {2, 1}, {2, -1}, {-2, 1}, {-2, -1},
+            {1, 2}, {1, -2}, {-1, 2}, {-1, -2}
+        };
+
+        switch (piece->getType()) {
+            case TypePiece::TOUR: {
+                addSliding(destinations, piece, m_cases, x, y, kOrthoDirs);
+                break;
+            }
+            case TypePiece::FOU: {
+                addSliding(destinations, piece, m_cases, x, y, kDiagDirs);
+                break;
+            }
+            case TypePiece::REINE: {
+                std::vector<std::pair<int, int>> dirs = kOrthoDirs;
+                dirs.insert(dirs.end(), kDiagDirs.begin(), kDiagDirs.end());
+                addSliding(destinations, piece, m_cases, x, y, dirs);
+                break;
+            }
+            case TypePiece::ROI: {
+                for (const auto& d : kOrthoDirs) {
+                    addIfValid(destinations, idFromXY(x + d.first, y + d.second), piece, m_cases);
+                }
+                for (const auto& d : kDiagDirs) {
+                    addIfValid(destinations, idFromXY(x + d.first, y + d.second), piece, m_cases);
+                }
+                break;
+            }
+            case TypePiece::CAVALIER: {
+                for (const auto& d : kKnightOffsets) {
+                    addIfValid(destinations, idFromXY(x + d.first, y + d.second), piece, m_cases);
+                }
+                break;
+            }
+            case TypePiece::PION: {
+                const int fx = piece->getPawnDirX();
+                const int fy = piece->getPawnDirY();
+
+                // === Avance d'une case (case vide uniquement) ===
+                // PRIORITÉ: d'abord la table de transitions, sinon le mouvement direct
+                int oneStepId = -1;
+                int transitionId = getPawnTransition(fromId, piece->getCouleur());
+                
+                if (transitionId >= 0) {
+                    // Utiliser la table de transitions (priorité absolue)
+                    if (m_cases[transitionId]->estVide()) {
+                        destinations.push_back(transitionId);
+                        oneStepId = transitionId;
+                    }
+                } else {
+                    // Sinon, essayer le mouvement direct
+                    oneStepId = idFromXY(x + fx, y + fy);
+                    if (oneStepId >= 0 && m_cases[oneStepId]->estVide()) {
+                        destinations.push_back(oneStepId);
+                    }
+
+                    // === Double pas initial (si n'a pas encore joué) ===
+                    if (oneStepId >= 0 && !piece->aDejaJoue()) {
+                        LocalCell nextPos = decodeId(oneStepId);
+                        int twoStepId = idFromXY(nextPos.x + fx, nextPos.y + fy);
+                        if (twoStepId >= 0 && m_cases[twoStepId]->estVide()) {
+                            destinations.push_back(twoStepId);
+                        }
+                    }
+
+                    // === Captures diagonales (seulement si pas de transition) ===
+                    const int cap1Id = idFromXY(x + fx + fy, y + fy - fx);
+                    if (cap1Id >= 0) {
+                        Piece* target = m_cases[cap1Id]->getPiece();
+                        if (target && target->getCouleur() != piece->getCouleur()) {
+                            destinations.push_back(cap1Id);
+                        }
+                    }
+
+                    const int cap2Id = idFromXY(x + fx - fy, y + fy + fx);
+                    if (cap2Id >= 0) {
+                        Piece* target = m_cases[cap2Id]->getPiece();
+                        if (target && target->getCouleur() != piece->getCouleur()) {
+                            destinations.push_back(cap2Id);
+                        }
+                    }
+                }
+                break;
+            }
+            default:
+                break;
         }
         return destinations;
     }
@@ -267,7 +510,10 @@ namespace Yalta {
 
         Piece* piece = from->getPiece();
         if (!piece || piece->getCouleur() != m_tourCourant) return false;
-        if (fromId == toId || !sontVoisines(fromId, toId)) return false;
+        if (fromId == toId) return false;
+
+        const std::vector<int> legals = getDestinationsLegales(fromId);
+        if (std::find(legals.begin(), legals.end(), toId) == legals.end()) return false;
 
         if (!to->estVide()) {
             Piece* cible = to->getPiece();

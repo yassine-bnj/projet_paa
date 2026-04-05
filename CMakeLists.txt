@@ -13,7 +13,9 @@ find_package(SFML 3 COMPONENTS Graphics Window System REQUIRED)
 add_executable(YaltaChess 
     src/main.cpp
     src/model/Case.cpp
+    src/model/Piece.cpp
     src/model/Plateau.cpp
+    src/view/GameView.cpp
 )
 target_include_directories(YaltaChess PRIVATE include)
 target_link_libraries(YaltaChess SFML::Graphics SFML::Window SFML::System)

@@ -5,6 +5,7 @@
 #include <cstdint>
 #include <cmath>
 #include <sstream>
+#include <string>
 
 namespace {
     bool inSextantIntervals(int x, int y, int& sextant) {
@@ -243,6 +244,16 @@ void GameView::render() {
     window.draw(boardDisc);
     for (const auto& tile : cellShapes) window.draw(tile);
     drawPieces();
+    
+    // Affiche l'ID de chaque case
+    if (m_fontLoaded) {
+        for (size_t i = 0; i < cellCenters.size(); ++i) {
+            sf::Text idText(font, std::to_string(i), 10);
+            idText.setFillColor(sf::Color::Black);
+            idText.setPosition(sf::Vector2f(cellCenters[i].x - 8.f, cellCenters[i].y - 8.f));
+            window.draw(idText);
+        }
+    }
 
     if (m_fontLoaded) {
         std::ostringstream oss;

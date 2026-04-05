@@ -11,6 +11,8 @@ namespace Yalta {
         , m_strategieMouvement(strategie)
         , m_aDejaJoue(false)
         , m_type(type)
+        , m_pawnDirX(0)
+        , m_pawnDirY(0)
     {
     }
 
