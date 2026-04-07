@@ -2,7 +2,6 @@
 #include <algorithm>
 #include <array>
 #include <cassert>
-#include <map>
 #include <vector>
 
 namespace Yalta {
@@ -90,83 +89,109 @@ namespace Yalta {
             return idFromXY(x, y) >= 0;
         }
 
-        // Table des transitions spiralées de pions - une par couleur
-        // Élimine les collisions en séparant les tables par couleur
-        int getPawnTransition(int fromId, Couleur couleur) {
+        LocalCell decodeId(int id) {
+            return g_idToLocal[id];
+        }
+
+        struct PawnDir {
+            int fx;
+            int fy;
+        };
+
+        // Reproduit les transitions spiralées des pions via formules de coordonnées
+        // (aucune table d'IDs hardcodée).
+        int computePawnTransitionId(int fromId, Couleur couleur) {
+            const LocalCell pos = decodeId(fromId);
+            const int x = pos.x;
+            const int y = pos.y;
+
             if (couleur == Couleur::BLANC) {
-                static const std::map<int, int> transitionsBlanc = {
-                    // BLANC (avance vers le centre) - SEXTANTS 0 & 5
-                    {31, 91}, {91, 83}, {83, 75},
-                    {23, 90}, {90, 82}, {82, 74},
-                    {15, 89}, {89, 81}, {81, 73},
-                    {7, 88}, {88, 80}, {80, 72},
-                    {27, 59}, {59, 58}, {58, 57},
-                    {26, 51}, {51, 50}, {50, 49},
-                    {25, 43}, {43, 42}, {42, 41},
-                    {24, 35}, {35, 34}, {34, 33}
-                };
-                auto it = transitionsBlanc.find(fromId);
-                if (it != transitionsBlanc.end()) return it->second;
+                // Branche S5 -> S4
+                if (x == 7 && y >= 0 && y <= 3) {
+                    return idFromXY(4 + y, 11);
+                }
+                if (y == 11 && x >= 4 && x <= 7) {
+                    return idFromXY(x, 10);
+                }
+                if (y == 10 && x >= 4 && x <= 7) {
+                    return idFromXY(x, 9);
+                }
+
+                // Branche S0 -> S1
+                if (y == 3 && x >= 0 && x <= 3) {
+                    return idFromXY(3, 4 + x);
+                }
+                if (x == 3 && y >= 4 && y <= 7) {
+                    return idFromXY(2, y);
+                }
+                if (x == 2 && y >= 4 && y <= 7) {
+                    return idFromXY(1, y);
+                }
+                return -1;
             }
-            else if (couleur == Couleur::NOIR) {
-                static const std::map<int, int> transitionsNoir = {
-                    // NOIR - SEXTANTS 1 & 2 (spirales vers centre et retours)
-                    {59, 27}, {27, 19},
-                    {51, 26}, {26, 18},
-                    {43, 25}, {25, 17},
-                    {35, 24}, {24, 16},
-                    {60, 71}, {71, 70},
-                    {61, 79}, {79, 78},
-                    {62, 87}, {87, 86},
-                    {63, 95}, {95, 94}
-                };
-                auto it = transitionsNoir.find(fromId);
-                if (it != transitionsNoir.end()) return it->second;
+
+            if (couleur == Couleur::NOIR) {
+                // Branche S1 -> S0
+                if (x == 3 && y >= 4 && y <= 7) {
+                    return idFromXY(y - 4, 3);
+                }
+                if (y == 3 && x >= 0 && x <= 3) {
+                    return idFromXY(x, 2);
+                }
+
+                // Branche S2 -> S3
+                if (y == 7 && x >= 8 && x <= 11) {
+                    return idFromXY(11, x);
+                }
+                if (x == 11 && y >= 8 && y <= 11) {
+                    return idFromXY(10, y);
+                }
+                return -1;
             }
-            else if (couleur == Couleur::GRIS) {
-                static const std::map<int, int> transitionsGris = {
-                    // GRIS - SEXTANTS 3 & 4 (spirales vers centre et retours)
-                    {71, 60}, {60, 52},
-                    {79, 61}, {61, 53},
-                    {87, 62}, {62, 54},
-                    {95, 63}, {63, 55},
-                    {91, 31}, {31, 30},
-                    {90, 23}, {23, 22},
-                    {89, 15}, {15, 14},
-                    {88, 7}, {7, 6}
-                };
-                auto it = transitionsGris.find(fromId);
-                if (it != transitionsGris.end()) return it->second;
+
+            // Couleur::GRIS
+            // Branche S3 -> S2
+            if (x == 11 && y >= 8 && y <= 11) {
+                return idFromXY(y, 7);
+            }
+            if (y == 7 && x >= 8 && x <= 11) {
+                return idFromXY(x, 6);
+            }
+
+            // Branche S4 -> S5
+            if (y == 11 && x >= 4 && x <= 7) {
+                return idFromXY(7, x - 4);
+            }
+            if (x == 7 && y >= 0 && y <= 3) {
+                return idFromXY(6, y);
             }
             return -1;
         }
 
-        // Cherche le voisin valide le plus aligné avec la direction (fx, fy)
-        // Utilisé uniquement comme fallback quand idFromXY échoue
-        int findBestNeighbor(int x, int y, int fx, int fy) {
-            int bestId = -1;
-            float bestScore = -2.0f;
-            
-            for (int dx = -1; dx <= 1; ++dx) {
-                for (int dy = -1; dy <= 1; ++dy) {
-                    int nx = x + dx;
-                    int ny = y + dy;
-                    int id = idFromXY(nx, ny);
-                    if (id < 0) continue;
-                    
-                    // Score: alignement avec direction (fx, fy)
-                    float score = static_cast<float>(dx * fx + dy * fy);
-                    if (score > bestScore) {
-                        bestScore = score;
-                        bestId = id;
-                    }
-                }
-            }
-            return bestId;
+        Case::Direction directionFromDelta(int dx, int dy) {
+            if (dx == 1 && dy == 0) return Case::Direction::EST;
+            if (dx == -1 && dy == 0) return Case::Direction::OUEST;
+            if (dx == 0 && dy == 1) return Case::Direction::SUD;
+            if (dx == 0 && dy == -1) return Case::Direction::NORD;
+            if (dx == 1 && dy == -1) return Case::Direction::NORD_EST;
+            if (dx == -1 && dy == 1) return Case::Direction::SUD_OUEST;
+            if (dx == 1 && dy == 1) return Case::Direction::SUD_EST;
+            return Case::Direction::NORD_OUEST;
         }
 
-        LocalCell decodeId(int id) {
-            return g_idToLocal[id];
+        void ajouterArcEntreCases(std::array<Case*, 96>& cases, int x1, int y1, int x2, int y2) {
+            const int id1 = idFromXY(x1, y1);
+            const int id2 = idFromXY(x2, y2);
+            if (id1 < 0 || id2 < 0) return;
+
+            Case* c1 = cases[id1];
+            Case* c2 = cases[id2];
+            if (!c1 || !c2) return;
+
+            const int dx = x2 - x1;
+            const int dy = y2 - y1;
+            c1->ajouterArc(directionFromDelta(dx, dy), c2);
+            c2->ajouterArc(directionFromDelta(-dx, -dy), c1);
         }
 
         CoordonneesEcran toScreen(int x, int y) {
@@ -279,9 +304,21 @@ namespace Yalta {
                 const int ny = cell.y + d.second;
                 const int nid = idFromXY(nx, ny);
                 if (nid >= 0) {
-                    current->ajouterVoisin(m_cases[nid]);
+                    const int dx = d.first;
+                    const int dy = d.second;
+                    current->ajouterArc(directionFromDelta(dx, dy), m_cases[nid]);
                 }
             }
+        }
+
+        // Arêtes de couture spiralée entre sextants (version formulée en coordonnées).
+        for (int k = 0; k < 4; ++k) {
+            // x=7, y=0..3 <-> y=11, x=4..7
+            ajouterArcEntreCases(m_cases, 7, k, 4 + k, 11);
+            // y=3, x=0..3 <-> x=3, y=4..7
+            ajouterArcEntreCases(m_cases, k, 3, 3, 4 + k);
+            // y=7, x=8..11 <-> x=11, y=8..11
+            ajouterArcEntreCases(m_cases, 8 + k, 7, 11, 8 + k);
         }
     }
 
@@ -451,52 +488,48 @@ namespace Yalta {
                 const int fx = piece->getPawnDirX();
                 const int fy = piece->getPawnDirY();
 
-                // === Avance d'une case (case vide uniquement) ===
-                // PRIORITÉ: d'abord la table de transitions, sinon le mouvement direct
-                int oneStepId = -1;
-                int transitionId = getPawnTransition(fromId, piece->getCouleur());
-                
+                // Priorité aux transitions spiralées quand elles existent.
+                const int transitionId = computePawnTransitionId(fromId, piece->getCouleur());
                 if (transitionId >= 0) {
-                    // Utiliser la table de transitions (priorité absolue)
                     if (m_cases[transitionId]->estVide()) {
                         destinations.push_back(transitionId);
-                        oneStepId = transitionId;
                     }
-                } else {
-                    // Sinon, essayer le mouvement direct
-                    oneStepId = idFromXY(x + fx, y + fy);
-                    if (oneStepId >= 0 && m_cases[oneStepId]->estVide()) {
-                        destinations.push_back(oneStepId);
-                    }
+                    break;
+                }
 
-                    // === Double pas initial (si n'a pas encore joué) ===
-                    if (oneStepId >= 0 && !piece->aDejaJoue()) {
-                        LocalCell nextPos = decodeId(oneStepId);
-                        int twoStepId = idFromXY(nextPos.x + fx, nextPos.y + fy);
+                // Sinon, avance directe.
+                const int oneStepId = idFromXY(x + fx, y + fy);
+                if (oneStepId >= 0 && m_cases[oneStepId]->estVide()) {
+                    destinations.push_back(oneStepId);
+
+                    if (!piece->aDejaJoue()) {
+                        const LocalCell nextPos = decodeId(oneStepId);
+                        const int twoStepId = idFromXY(nextPos.x + fx, nextPos.y + fy);
                         if (twoStepId >= 0 && m_cases[twoStepId]->estVide()) {
                             destinations.push_back(twoStepId);
                         }
                     }
+                }
 
-                    // === Captures diagonales (seulement si pas de transition) ===
-                    const int cap1Id = idFromXY(x + fx + fy, y + fy - fx);
-                    if (cap1Id >= 0) {
-                        Piece* target = m_cases[cap1Id]->getPiece();
-                        if (target && target->getCouleur() != piece->getCouleur()) {
-                            destinations.push_back(cap1Id);
-                        }
+                // Captures diagonales en repère local du pion.
+                const int cap1Id = idFromXY(x + fx + fy, y + fy - fx);
+                if (cap1Id >= 0) {
+                    Piece* target = m_cases[cap1Id]->getPiece();
+                    if (target && target->getCouleur() != piece->getCouleur()) {
+                        destinations.push_back(cap1Id);
                     }
+                }
 
-                    const int cap2Id = idFromXY(x + fx - fy, y + fy + fx);
-                    if (cap2Id >= 0) {
-                        Piece* target = m_cases[cap2Id]->getPiece();
-                        if (target && target->getCouleur() != piece->getCouleur()) {
-                            destinations.push_back(cap2Id);
-                        }
+                const int cap2Id = idFromXY(x + fx - fy, y + fy + fx);
+                if (cap2Id >= 0) {
+                    Piece* target = m_cases[cap2Id]->getPiece();
+                    if (target && target->getCouleur() != piece->getCouleur()) {
+                        destinations.push_back(cap2Id);
                     }
                 }
                 break;
             }
+
             default:
                 break;
         }
